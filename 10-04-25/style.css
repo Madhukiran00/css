@@ -1,0 +1,28 @@
+h1{
+    background-color: blue;
+
+}
+p{
+    color: red;
+}
+.strong{
+    color: green;
+}
+#b{
+    color: rgb(178, 178, 98);
+}
+#em,.i{
+    color:chocolate
+}
+#u,#mark{
+    color:crimson
+}
+blockquote,q{
+    color:rgba(223, 8, 219, 0.848)
+}
+.abbr,.a,.small{
+    background-color: chocolate;
+}
+#{
+    background-color:tomato;
+}
