@@ -1,10 +1,22 @@
-.div1{
+.div1,.div4{
+    background-color: antiquewhite;
+    margin: 25px 0px 0px 100px;
+    display: inline-block;
+    height: 420px;
+    width: 400px;
+}
+.div2,.div3,.div5,.div6{
     background-color: antiquewhite;
     margin: 25px 0px 0px 15px;
-    height: 400px;
+    display: inline-block;
+    height: 420px;
     width: 400px;
-
 }
+
+
+
+
+
 img{
     padding: 10px 10px;
     display: inline-block;
