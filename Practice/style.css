@@ -1,0 +1,12 @@
+h1{
+    background-color: rgb(111, 111, 197);
+    padding-left: 250px;
+    display: inline-block;
+}
+h2{
+    background-color: rgb(143, 143, 186);
+    padding-left: 5px;
+    margin-left: 200px;
+    display: inline-block;
+    border: 5px solid black;
+}
