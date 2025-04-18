@@ -53,6 +53,38 @@
 
 
 
+/* .div1{
+    background-color: aliceblue;
+    
+}
+.div2{
+    background-color: blue;
+} */
+
+
+
+
+
+        .d1{
+    background-color: rgb(219, 11, 32);
+    height: 200px;
+    width: 100px;
+    display:inline-block;
+    
+}
+.d2{
+    background-color: blue;
+    height: 200px;
+    width: 100px;
+    display: inline-block;
+}
+
+    
+
+
+
+
+
 
 
 
