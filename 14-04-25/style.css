@@ -1,13 +1,24 @@
-.div{
-    margin-left: 350px;
+.div1{
+    background-image: url("./President-of-India-A-P-J-Abdul-Kalam-2007.webp");
+    margin-left: 130px;
+    background-repeat: no-repeat;
     height: 700px;
-    width: 800px;
-    background-color:beige;
+    box-sizing: border-box;
+    width: 1200px;
+
+}
+.h3{
+    padding-left: 450px;
+    padding-top: 620px;
+    font-size:50px;
+    color: white;
+}
+.div2{
+    background-color: darkkhaki;
 }
 .body{
     background-color: bisque;
 }
-.div1:hover{
-    margin-left: 45px;
-    padding-top: 45px;
+.p{
+    padding-left: 10px;
 }
