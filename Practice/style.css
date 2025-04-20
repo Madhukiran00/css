@@ -1,4 +1,4 @@
-/* .div1{
+.div1{
     height: 625px;
     width: 600px;
     border: 2px solid black;
@@ -46,7 +46,7 @@
 }
 #div4{
     padding-left: 120px;
-} */
+}
 
 
 
@@ -65,7 +65,7 @@
 
 
 
-        .d1{
+        /* .d1{
     background-color: rgb(219, 11, 32);
     height: 200px;
     width: 100px;
@@ -79,9 +79,17 @@
     display: inline-block;
 }
 
+     */
+.btn{
+    background-color: aqua;
+    border: 2px solid black;
+    border-style: dotted;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     
 
-
+}
 
 
 
