@@ -80,7 +80,7 @@
 }
 
      */
-.btn{
+/* .btn{
     background-color: aqua;
     border: 2px solid black;
     border-style: dotted;
@@ -89,11 +89,31 @@
     border-bottom-right-radius: 10px;
     
 
-}
+} */
 
 
 
 
+-webkit-text-size-adjust: 100%;
+font-size: 15px;
+line-height: 1.5;
+font-family: "Karma", sans-serif;
+box-sizing: inherit;
+border: none;
+display: inline-block;
+padding: 8px 16px;
+vertical-align: middle;
+overflow: hidden;
+text-decoration: none;
+color: inherit;
+background-color: inherit;
+text-align: center;
+cursor: pointer;
+white-space: nowrap;
+user-select: none;
+padding-top: 16px!important;
+padding-bottom: 16px!important;
+float: left!important;
 
 
 
