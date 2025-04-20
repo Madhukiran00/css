@@ -1,24 +1,80 @@
 .div1{
-    background-image: url("./President-of-India-A-P-J-Abdul-Kalam-2007.webp");
-    margin-left: 130px;
+    background-image: url("./a-g-bell.avif");
+    margin-left: 400px;
     background-repeat: no-repeat;
-    height: 700px;
+    height: 500px;
+    background-color: aqua;
     box-sizing: border-box;
-    width: 1200px;
+    width: 500px;
 
 }
 .h3{
-    padding-left: 450px;
-    padding-top: 620px;
-    font-size:50px;
+    padding-left: 50px;
+    padding-top: 430px;
+    font-size:40px;
     color: white;
 }
 .div2{
-    background-color: darkkhaki;
+    background-color:bisque;
+    margin:0px 0px 30px  290px;
+    box-sizing: border-box;
+    width: 735px;
+    height: 120px;
 }
 .body{
     background-color: bisque;
 }
-.p{
-    padding-left: 10px;
+
+.div3{
+    background-image:url("./Hydrofoils.png"); height: 10px; width: 10px;
+    height: 400px;
+    width: 400px;
+    background-size:contain;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    margin-left: 450px;
+    display: inline-block;
+    
+
 }
+.h4{
+    padding-left: 260px;
+    padding-top: 210px;
+    font-size:22px;
+    color:chartreuse
+}
+.div4{
+    background-image:url("./sc1.png"); height: 10px; width: 10px;
+    height: 400px;
+    width: 400px;
+    margin-left: 450px;
+    background-size:contain;
+    box-sizing: border-box;;
+    background-repeat: no-repeat;
+   
+
+}
+.div4h4{
+    padding-left: 260px;
+    padding-top: 220px;
+    font-size:22px;
+    color:chartreuse
+}
+.div5{
+    background-image:url("./metal\ detecter.png"); height: 10px; width: 10px;
+    height: 400px;
+    width: 400px;
+    margin-left: 450px;
+    background-size:cover;
+    box-sizing: border-box;;
+    background-repeat: no-repeat;
+    
+
+}
+.div5h4{
+    padding-left: 200px;
+    padding-top: 360px;
+    font-size:22px;
+    color:rgb(39, 18, 229)
+}
+
