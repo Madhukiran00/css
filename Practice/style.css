@@ -1,4 +1,4 @@
-.div1{
+/* .div1{
     height: 625px;
     width: 600px;
     border: 2px solid black;
@@ -94,7 +94,7 @@
 
 
 
--webkit-text-size-adjust: 100%;
+/* -webkit-text-size-adjust: 100%;
 font-size: 15px;
 line-height: 1.5;
 font-family: "Karma", sans-serif;
@@ -113,18 +113,8 @@ white-space: nowrap;
 user-select: none;
 padding-top: 16px!important;
 padding-bottom: 16px!important;
-float: left!important;
+float: left!important
 
+ */ 
 
-
-
-
-
-
-
-
-
-
-
-
-
+ 
