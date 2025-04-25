@@ -1,0 +1,44 @@
+ pre{
+    display:none;
+} 
+
+
+.descendent:hover ~ pre{
+    display: block;
+    color: blue;
+
+ }
+
+ .child:hover + pre{
+    display: block;
+    color: blue;
+
+ }
+
+ .adjacent:hover ~ pre{
+    display: block;
+    color: blue;
+    
+ }
+
+ .sibling:hover ~ pre {
+    display: block;
+    color: blue;
+
+ }
+
+ .outerdiv{
+    height: 400px;
+    width: 400px;
+    padding-left: 180px;
+    font-size: 22px;
+    
+
+ }
+
+ .fieldset{
+    height: 750px;
+    width: 800px;
+    margin-left: 330px;
+    background-color:antiquewhite;
+ }

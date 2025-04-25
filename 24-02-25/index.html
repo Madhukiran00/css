@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <fieldset class="fieldset">
+        <div class="outerdiv">
+<h1>Combinators:</h1>
+
+<div><h3 class="descendent">Descendent:-</h3>
+<p class="descendent">Targets all child elements nested inside a parent, regardless of how deep.</p>
+<pre >div p {
+    color: blue;
+  }
+<pre>
+</div>
+
+<div>
+<h3 class="child">Child:-</h3>
+<p class="child">Selects elements that are direct children of a specified element.</p>
+<pre>div > p {
+    color: red;
+  }
+  </pre>
+</div>
+
+
+<div>
+<h3 class="adjacent">Adjacent Sibling:-</h3>
+<p class="adjacent">Selects an element that is the next sibling immediately after another element.</p>
+<pre>h2 + p {
+    font-style: italic;
+  }
+  </pre>
+</div>
+
+
+<div>
+<h3 class="sibling">General Sibling </h3>
+<p class="sibling">Selects all siblings of an element that come after it.</p>
+<pre>h2 ~ p {
+    color: green;
+  }
+  </pre>
+</div>
+</div>
+</fieldset>
+</body>
+</html>
