@@ -115,6 +115,116 @@ padding-top: 16px!important;
 padding-bottom: 16px!important;
 float: left!important
 
- */ 
-
+ */
  
+ 
+/* ------------------------------------------------------------------------ */
+ 
+
+/* .div1{
+    height: 200px;
+    width: 200px;
+    background-color: lightblue;
+    border: 2px dotted black;
+}
+
+.div2{
+    height: 200px;
+    width: 200px;
+    margin: 0px;
+    padding: 0px;
+    background-color: lightblue;
+    border: 2px solid black;
+    position :relative;
+    top: 30px;
+    left:50px;
+
+}  */
+
+/* ---------------------------------------------------------------------------- */
+
+
+/* .div1{
+    height: 400px;
+    width: 400px;
+    border: 2px solid blue;
+    position: relative;
+    background-color: lightblue;
+
+}
+
+
+
+.div3{
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    background-color:blanchedalmond;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+} */
+ 
+/* #--------------------------------------------------------------------------- */ */
+/* 
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.div2{
+    background-color: rgb(37, 183, 183);
+    height: 20vh;
+    width: 100%;
+}
+
+
+.div2{
+    background-color: rgb(37, 183, 183);
+    height: 20vh;
+    width: 100%;
+    position:sticky;
+    top: 10px;
+}
+.div1{
+    background-color: blue;
+    height: 20vh;
+    width: 100%;
+   
+
+    
+} */
+
+/* .div3{
+    background-color: violet;
+    height: 20vh;
+    width: 100%;
+   
+} */
+
+/* .div4{
+    background-color: brown;
+    height: 20vh;
+    width: 100%;
+}
+
+.div5{
+    background-color: hotpink;
+    height: 20vh;
+    width: 100%;
+}
+
+.div6{
+    background-color: rgb(98, 40, 69);
+    height: 20vh;
+    width: 100%;
+}
+.div7{
+    background-color: rgb(98, 40, 69);
+    height: 20vh;
+    width: 100%;
+} */
+
