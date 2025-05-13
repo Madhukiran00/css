@@ -247,7 +247,7 @@
 
 
 
-
+<!-- 
 
 
  <!DOCTYPE html>
@@ -273,7 +273,7 @@
 
     
  </body>
- </html>
+ </html> -->
 
 
 
@@ -283,3 +283,89 @@
  2. descendant selector
  3. general sibling selector
  4. adjacent sibling selector    -->
+
+
+<!--         TRANSFORM       -->
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            height: 20vh;
+            width: 20vw;
+            background-color: aqua;
+        }
+        /* .container:hover{ */
+            /* background-color: blue; */
+            /* transform: rotate(300deg) ; */
+            /* transform: scale(1.1);
+             */
+            /* transform: skew(10deg);
+             */
+             /* transform: translate(50px); */
+             /* transform: translate(50px,);
+              */
+            /* transform: translateY(-20px) */
+        /* } */ 
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+</body>
+</html> -->
+
+
+<!-- transition:-   -->
+
+<!-- 1)transition:duration
+     2)delay
+     3)property
+     4)timing-function -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 40vh;
+            height: 20vw;
+            background-color: blue;
+            /* transition-delay: 3s; */
+            /* transition-duration: 5s; */
+            transition-property: all 2s;
+        }
+        .container:hover{
+          transform:rotate(360deg);
+          transform: translateX(20px);
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container"></div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
