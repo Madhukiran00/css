@@ -8,48 +8,66 @@
     <style>
         .parent{
             background-color: blue;
+            display:grid;
+
+            grid-gap:10px;
+            height: 200px;
             grid-template-areas: " name1 name1 name1 name1 name1 name1 name1 name1 name1 name1"
                                  " name2 name3 name4 name5 name5 name5 name5 name5 name6 name6 "
-                                 " nmae2 name7 name7 name5 name5 name5 name5 name5 name8 name9";
+                                 " name2 name7 name7 name5 name5 name5 name5 name5 name8 name9"
+                                 " name10 name10 name10 name10 name10 name10 name10 name10 name10 name10";
 
         }
+
         .child{
             background-color: red;
+            /* height: 100px; */
+        
 
         }
         .child1{
             grid-area:name1;
+            background-color: greenyellow;
         }
         .child2{
             grid-area:name2;
+            background-color: yellow;
         }
         .child3{
             grid-area:name3;
+            background-color: peru;
         }
         .child4{
             grid-area:name4;
+            background-color: magenta;
         }
         .child5{
             grid-area:name5;
+            background-color: sandybrown;
         }
         .child6{
             grid-area:name6;
+            background-color: tomato;
         }
         .child7{
             grid-area:name7;
+            background-color: hotpink;
         }
         .child8{
             grid-area:name8;
+            background-color: lightblue;
         }
         .child9{
             grid-area:name9;
+            background-color: sienna;
         }
         .child10{
             grid-area:name10;
+            background-color: gold;
         }
-        .child{
+        /* .child{
             background-color: salmon;
-        }
+        } */
 
     </style>
 </head>
