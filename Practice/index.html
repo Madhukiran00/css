@@ -869,7 +869,7 @@
     </script> -->
 
 
-
+<!-- 
 
 
     <style type="text/css">
@@ -1166,4 +1166,63 @@
 
         /* latin-ext */
 
-    
+     -->
+
+
+
+
+     <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Spinning Fan</title>
+  <style>
+    body {
+      background-color: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .fan {
+      width: 200px;
+      height: 200px;
+      border: 5px solid #ccc;
+      border-radius: 50%;
+      background: #fff;
+      position: relative;
+      animation: spin 1s linear infinite;
+    }
+
+    .blade {
+      width: 100px;
+      height: 20px;
+      background-color: #3498db;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform-origin: left center;
+      border-radius: 10px;
+    }
+
+    .blade1 { transform: rotate(0deg) translateX(-50%); }
+    .blade2 { transform: rotate(90deg) translateX(-50%); }
+    .blade3 { transform: rotate(180deg) translateX(-50%); }
+    .blade4 { transform: rotate(270deg) translateX(-50%); }
+
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <div class="fan">
+    <div class="blade blade1"></div>
+    <div class="blade blade2"></div>
+    <div class="blade blade3"></div>
+    <div class="blade blade4"></div>
+  </div>
+</body>
+</html>
